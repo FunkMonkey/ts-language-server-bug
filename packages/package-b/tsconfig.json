@@ -13,7 +13,8 @@
     "outDir": "build",
     "rootDir": "./src",
     "sourceMap": true,
-    "target": "ES2021"
+    "target": "ES2021",
+    "tsBuildInfoFile": "./build/tsconfig.tsbuildinfo"
   },
   "include": ["./src/**/*.ts"],
   "references": [{ "path": "../package-a" }]
