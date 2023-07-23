@@ -1,0 +1,17 @@
+{
+  "name": "package-a",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "build/index.js",
+  "exports": {
+    ".": "./build/index.js",
+    "./package.json": "./package.json",
+    "./*": [
+      "./build/*/index.js",
+      "./build/*.js"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "5.1.6"
+  }
+}

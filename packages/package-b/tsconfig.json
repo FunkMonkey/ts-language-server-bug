@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "lib": ["es2021", "dom"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "outDir": "build",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "target": "ES2021"
+  },
+  "include": ["./src/**/*.ts"],
+  "references": [{ "path": "../package-a" }]
+}
